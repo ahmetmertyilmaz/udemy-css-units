@@ -63,3 +63,16 @@ article[class="ems"] {
     background-color: aquamarine;
     color: black;
 }
+
+span {
+    /*inline element*/
+    font-style: italic;
+    width: 100px;
+    /*it is ignored*/
+    height: 100px;
+    /*it is ignored*/
+    padding: 50px;
+    /*padding top and bottom are ignored*/
+    margin: 50px;
+    /*margin top and bottom are ignored*/
+}
