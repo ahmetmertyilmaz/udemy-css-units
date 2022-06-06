@@ -1,0 +1,65 @@
+body {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 50%;
+    /*it makes the height of the line((=40px)) halve
+    Be careful! it is equal to element itself.
+    */
+}
+
+html {
+    /*for rem*/
+    font-size: 10px;
+}
+
+article[class="ems"] {
+    font-size: 20px;
+}
+
+.ems h2 {
+    font-size: 2em;
+    /*em makes it 2 times bigger than parent's element value*/
+}
+
+.ems ul {
+    font-size: 1.5em;
+}
+
+.ems p {
+    font-size: 1em;
+    ;
+}
+
+/*------------root ems / rem is related to the root of the html element---------------------*/
+.ems button {
+    font-size: 1rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+    color: black;
+}
+
+.rems h2 {
+    font-size: 4rem;
+}
+
+.rems ul {
+    font-size: 2.5rem;
+}
+
+.rems p {
+    font-size: 2rem;
+    ;
+}
+
+.rems button {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+    color: black;
+}
